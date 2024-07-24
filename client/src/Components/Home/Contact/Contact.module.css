@@ -1,0 +1,138 @@
+.contact {
+    height: 759.67px;
+    padding: 0px 98px 0px 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+.left {
+    width: 100%;
+    height: 759.67px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 673.79px;
+    padding: 25px 36px 25px 36px;
+    gap: 15px;
+}
+
+.left form label {
+    font-size: 18px;
+    color: #767676;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.left form input {
+    background: #F0F0F6;
+    border-radius: 5px;
+    height: 50px;
+    border: none;
+    outline: none;
+}
+
+.left form textarea {
+    background: #F0F0F6;
+    border-radius: 5px;
+    height: 210.42px;
+    border: none;
+    outline: none;
+}
+
+.left form button {
+    width: 151px;
+    height: 50.83px;
+    padding: 17px 16px 17px 16px;
+    border-radius: 5px;
+    background: #FFB400;
+    border: none;
+    outline: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 373px;
+    height: 759.67px;
+}
+
+.right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    width: 372.7px;
+    height: 211.11px;
+    background: #FFFFFF;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px !important;
+}
+
+.card img {
+    border-radius: 50%;
+    background: #FFB400;
+    padding: 10px;
+}
+
+.card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.card ul li {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+}
+
+.card ul li p:nth-child(2) {
+    color: #767676;
+}
+
+@media screen and (max-width: 900px){
+    .right h3,.left h3{
+        text-align: center !important;
+    }
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0;
+        height: 100%;
+    }
+
+    .left{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        padding: 20px;
+        width: 250px;
+        height: 100%;
+    }
+
+    .card ul li{
+        flex-wrap: wrap;
+    }
+}

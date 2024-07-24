@@ -1,0 +1,45 @@
+.card{
+    width: 385px;
+    height: 316px;
+    gap: 45px;
+}
+
+.card-body{
+    padding: 35px 52px;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.card-body h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.container .d-flex{
+    display: flex;
+    /* gap: 10px; */
+    overflow-x: auto;
+    padding: 0px;
+    height: 24px;
+}
+
+.progress{
+    --bs-progress-height: 4px;
+    background-color: white;
+    border: 0.5px solid #FFB400;
+    padding: 0.1px;
+    border-radius: 30px;
+}
+
+.progress div{
+    background-color: #FFB400;
+}
+
+@media screen and (max-width: 400px){
+    .card{
+        width: 250px;
+        height: 316px;
+        margin: auto;
+    }
+}

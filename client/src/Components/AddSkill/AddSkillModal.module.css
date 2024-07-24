@@ -1,0 +1,13 @@
+.skillRow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skillInput {
+    flex: 2;
+  }
+  
+  .proficiencyInput {
+    flex: 1;
+  }
+  

@@ -1,0 +1,353 @@
+{
+  "skills": [
+    {
+      "id": "b23b",
+      "domain": "Front-End Skills",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "rydkc6er6",
+      "domain": "Back-End Skills",
+      "skills": [
+        {
+          "skill": "Node.js",
+          "proficiency": 90
+        },
+        {
+          "skill": "Express.js",
+          "proficiency": 90
+        }
+      ]
+    },
+    {
+      "id": "s1lf3676d",
+      "domain": "Android Developemnt",
+      "skills": [
+        {
+          "skill": "React-Native",
+          "proficiency": 90
+        },
+        {
+          "skill": "Java",
+          "proficiency": 100
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": 85
+        },
+        {
+          "skill": "Flutter",
+          "proficiency": 75
+        }
+      ]
+    },
+    {
+      "id": "gequfm2yf",
+      "domain": "Software Developement",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": 90
+        },
+        {
+          "skill": "CSS",
+          "proficiency": 75
+        },
+        {
+          "skill": ".NET",
+          "proficiency": 97
+        },
+        {
+          "skill": "C#",
+          "proficiency": 89
+        },
+        {
+          "skill": "Visual Studio",
+          "proficiency": 79
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "b22b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/profile.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "b23b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/image1.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "b24b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/image2.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "b25b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/image4.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "b26b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/image.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "b27b",
+      "title": "Front-End Project",
+      "description": "I have good knowledge of Front-End Technologies",
+      "image": "Assets/image5.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    [
+      {
+        "id": "b23b",
+        "rating": "★★★★★",
+        "name": "John Doe1",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b24b",
+        "rating": "★★★★★",
+        "name": "John Doe2",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b25b",
+        "rating": "★★★★★",
+        "name": "John Doe3",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      }
+    ],
+    [
+      {
+        "id": "b26b",
+        "rating": "★★★★★",
+        "name": "John Doe4",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b27b",
+        "rating": "★★★★★",
+        "name": "John Doe5",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b28b",
+        "rating": "★★★★★",
+        "name": "John Doe6",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      }
+    ],
+    [
+      {
+        "id": "b29b",
+        "rating": "★★★★★",
+        "name": "John Doe7",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b30b",
+        "rating": "★★★★★",
+        "name": "John Doe8",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      },
+      {
+        "id": "b31b",
+        "rating": "★★★★★",
+        "name": "John Doe9",
+        "designation": "Front-End Developer",
+        "recommendation_text": "He is a good Front-End Developer",
+        "imgurl": "Assets/image.png"
+      }
+    ]
+  ],
+  "contacts": [
+    {
+      "id": "ff55",
+      "contacts": {
+        "name": "Vishal Tiwari",
+        "email": "vishal@gmail.com",
+        "subject": "Nothing",
+        "text": "hi"
+      }
+    }
+  ]
+}

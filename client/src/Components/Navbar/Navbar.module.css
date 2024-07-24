@@ -1,0 +1,139 @@
+.navbar {
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 96px 38px 96px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #ffffff;
+}
+
+.logo{
+    margin-right: 5px;
+}
+
+.menu{
+    margin-left: 5px;
+}
+
+.logo a img {
+    width: 158px;
+    height: 76px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 37px;
+    gap: 40px;
+}
+
+.menu ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 14px !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.openhamburger,.closehamburger{
+    position: absolute;
+    z-index: 6;
+    right: 38px;
+    display: none;
+    width: 60px;
+    height: 60px;
+    display: none;
+}
+
+.openhamburger ul li,.closehamburger ul li{
+    list-style: none;
+    height: 7px;
+    width: 50px;
+    background-color: black;
+    margin: 7px 0;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.closehamburger ul,.openhamburger ul{
+    padding: 0;
+    margin: 0;
+}
+
+.closehamburger ul li:nth-child(1){
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.closehamburger ul li:nth-child(3){
+    transform: rotate(-45deg) translate(10px, -10px);
+}
+
+.closehamburger ul li:nth-child(2){
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+@media screen and (max-width: 993px) {
+    .menu ul{
+        gap: 10px;
+    }
+
+    .navbar{
+        padding: 38px 38px 38px 38px;
+    }
+}
+
+@media screen and (max-width: 780px){
+
+    .navbar{
+        padding: 10px 20px 10px 20px;
+    }
+    .openmenu,.closemenu{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        z-index: 5;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #ffffff;
+        padding-top: 96px;
+        padding-bottom: 96px;
+        overflow-y: auto;
+        transition: all 0.3s;
+    }
+
+    .closemenu{
+        left: -100%;
+    }
+
+    .openmenu{
+        left: 0;
+    }
+
+    .menu ul{
+        flex-direction: column;
+    }
+
+    .openhamburger,.closehamburger{
+        display: block;
+    }
+
+    .logo a img{
+        width: 100px;
+        height: 50px;
+    }
+} 

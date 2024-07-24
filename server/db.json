@@ -1,0 +1,337 @@
+{
+  "skills": [
+    {
+      "id": "b23b",
+      "domain": "Front-End Skills",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "75"
+        },
+        {
+          "skill": "WordPress",
+          "proficiency": "85"
+        }
+      ]
+    },
+    {
+      "id": "rydkc6er6",
+      "domain": "Back-End Skills",
+      "skills": [
+        {
+          "skill": "Node.js",
+          "proficiency": 90
+        },
+        {
+          "skill": "Express.js",
+          "proficiency": 90
+        }
+      ]
+    },
+    {
+      "id": "s1lf3676d",
+      "domain": "Android Developemnt",
+      "skills": [
+        {
+          "skill": "React-Native",
+          "proficiency": 90
+        },
+        {
+          "skill": "Java",
+          "proficiency": 100
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": 85
+        },
+        {
+          "skill": "Flutter",
+          "proficiency": 75
+        }
+      ]
+    },
+    {
+      "id": "fmsf3ra0g",
+      "domain": "mnbsdm",
+      "skills": [
+        {
+          "skill": "dfgtr",
+          "proficiency": 70
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "b22b",
+      "title": "Interactive Web Application",
+      "description": "Developed a highly interactive web application with a focus on user experience and responsive design.",
+      "image": "Assets/image.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "80"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "85"
+        },
+        {
+          "skill": "React",
+          "proficiency": "75"
+        },
+        {
+          "skill": "Node.js",
+          "proficiency": "70"
+        }
+      ]
+    },
+    {
+      "id": "b23b",
+      "title": "E-commerce Platform",
+      "description": "Built a full-featured e-commerce platform with integration of payment gateways and dynamic product management.",
+      "image": "Assets/image1.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "95"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "PHP",
+          "proficiency": "85"
+        },
+        {
+          "skill": "MySQL",
+          "proficiency": "80"
+        }
+      ]
+    },
+    {
+      "id": "b24b",
+      "title": "Portfolio Website",
+      "description": "Designed a personal portfolio website showcasing various projects and skills with an elegant and modern design.",
+      "image": "Assets/image2.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "90"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "85"
+        },
+        {
+          "skill": "jQuery",
+          "proficiency": "75"
+        },
+        {
+          "skill": "Sass",
+          "proficiency": "80"
+        }
+      ]
+    },
+    {
+      "id": "b25b",
+      "title": "Blog Platform",
+      "description": "Developed a blogging platform with features for creating, editing, and publishing blog posts.",
+      "image": "Assets/image4.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "90"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "85"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "Laravel",
+          "proficiency": "70"
+        },
+        {
+          "skill": "MySQL",
+          "proficiency": "75"
+        }
+      ]
+    },
+    {
+      "id": "b26b",
+      "title": "Real-time Chat Application",
+      "description": "Created a real-time chat application using WebSocket for instant messaging and notifications.",
+      "image": "Assets/image.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "85"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "80"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "90"
+        },
+        {
+          "skill": "Socket.io",
+          "proficiency": "85"
+        },
+        {
+          "skill": "Express",
+          "proficiency": "80"
+        }
+      ]
+    },
+    {
+      "id": "b27b",
+      "title": "Task Management Tool",
+      "description": "Developed a task management tool with features for tracking tasks, deadlines, and team collaboration.",
+      "image": "Assets/image5.png",
+      "skills": [
+        {
+          "skill": "HTML",
+          "proficiency": "85"
+        },
+        {
+          "skill": "CSS",
+          "proficiency": "90"
+        },
+        {
+          "skill": "JavaScript",
+          "proficiency": "80"
+        },
+        {
+          "skill": "React",
+          "proficiency": "75"
+        },
+        {
+          "skill": "Firebase",
+          "proficiency": "70"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    [
+      {
+        "id": "b23b",
+        "rating": "★★★★★",
+        "name": "Alice Johnson",
+        "designation": "UI/UX Designer",
+        "recommendation_text": "Alice has a keen eye for design and exceptional skills in creating user-friendly interfaces. Her attention to detail and creativity are remarkable.",
+        "imgurl": "Assets/Profile.png"
+      },
+      {
+        "id": "b24b",
+        "rating": "★★★★☆",
+        "name": "Bob Smith",
+        "designation": "Back-End Developer",
+        "recommendation_text": "Bob is highly skilled in server-side technologies and has a strong understanding of database management. His problem-solving skills are outstanding.",
+        "imgurl": "Assets/Profile1.png"
+      },
+      {
+        "id": "b25b",
+        "rating": "★★★★★",
+        "name": "Carol Lee",
+        "designation": "Full Stack Developer",
+        "recommendation_text": "Carol is an excellent full-stack developer with proficiency in both front-end and back-end technologies. Her work ethic and dedication are commendable.",
+        "imgurl": "Assets/Profile2.png"
+      }
+    ],
+    [
+      {
+        "id": "b26b",
+        "rating": "★★★★☆",
+        "name": "David Brown",
+        "designation": "DevOps Engineer",
+        "recommendation_text": "David has a strong understanding of DevOps practices and tools. His ability to streamline operations and enhance system performance is impressive.",
+        "imgurl": "Assets/Profile.png"
+      },
+      {
+        "id": "b27b",
+        "rating": "★★★★★",
+        "name": "Eve Davis",
+        "designation": "Product Manager",
+        "recommendation_text": "Eve excels in managing projects and leading teams. Her strategic planning and ability to drive projects to completion are top-notch.",
+        "imgurl": "Assets/Profile1.png"
+      },
+      {
+        "id": "b28b",
+        "rating": "★★★★☆",
+        "name": "Frank Wilson",
+        "designation": "Data Scientist",
+        "recommendation_text": "Frank's expertise in data analysis and machine learning is remarkable. He has a talent for extracting valuable insights from complex datasets.",
+        "imgurl": "Assets/Profile2.png"
+      }
+    ],
+    [
+      {
+        "id": "b29b",
+        "rating": "★★★★★",
+        "name": "Grace Kim",
+        "designation": "Marketing Specialist",
+        "recommendation_text": "Grace has a strategic approach to marketing and an excellent ability to engage audiences. Her creative campaigns have significantly boosted brand visibility.",
+        "imgurl": "Assets/Profile.png"
+      },
+      {
+        "id": "b30b",
+        "rating": "★★★★☆",
+        "name": "Henry Walker",
+        "designation": "Content Writer",
+        "recommendation_text": "Henry writes compelling and engaging content. His ability to convey complex ideas in a clear and accessible manner is highly valued.",
+        "imgurl": "Assets/Profile1.png"
+      },
+      {
+        "id": "b31b",
+        "rating": "★★★★★",
+        "name": "Isabella Martinez",
+        "designation": "QA Engineer",
+        "recommendation_text": "Isabella's attention to detail and thorough testing skills ensure high-quality software releases. Her dedication to quality assurance is exceptional.",
+        "imgurl": "Assets/Profile2.png"
+      }
+    ]
+  ],
+  "contacts": [
+    {
+      "id": "ff55",
+      "contacts": {
+        "name": "Vishal Tiwari",
+        "email": "vishal@gmail.com",
+        "subject": "Nothing",
+        "text": "hi"
+      }
+    }
+  ]
+}
