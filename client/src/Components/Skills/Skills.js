@@ -9,7 +9,7 @@ const Skills = () => {
 
   // Fetch skills data from server on component mount
   useEffect(() => {
-    fetch('http://localhost:5000/skills')
+    fetch('https://port-folio-eta-pearl.vercel.app/skills')
       .then(response => response.json())
       .then(data => setSkillsData(data))
       .catch(error => console.error('Error fetching skills:', error));
@@ -36,7 +36,7 @@ const Skills = () => {
     setSkillsData(updatedSkillsData);
 
     try {
-      await fetch('http://localhost:5000/skills', {
+      await fetch('https://port-folio-eta-pearl.vercel.app/skills', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
