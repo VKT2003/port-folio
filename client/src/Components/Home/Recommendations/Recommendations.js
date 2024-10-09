@@ -7,7 +7,7 @@ const Recommendations = () => {
     const [recommendations, setRecommendations] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/recommendations') // Adjust the path if necessary
+        fetch('https://port-folio-eta-pearl.vercel.app/db.json/') // Adjust the path if necessary
             .then(response => response.json())
             .then(data => setRecommendations(data)) // Adjust based on the JSON structure
             .catch(error => console.error('Error fetching recommendations:', error));
